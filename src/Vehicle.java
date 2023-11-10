@@ -7,6 +7,7 @@ public class Vehicle {
     private String engine;
     private int horsePower;
 
+
     public String getCarLicensePlate() {
         return carLicensePlate;
     }

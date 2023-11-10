@@ -183,14 +183,14 @@ public class Main {
                     System.out.println("FACTURA:");
                     System.out.println("Codigo de venta: " + salesData.getSalesCode());
                     System.out.println("Fecha de venta: " + salesData.getSalesDate());
-                        //Datos del cliente
+                    //Datos del cliente
                     Customer customers = salesData.getCustomer(customer);
                     System.out.println("Cliente:");
                     System.out.println("Nombre: " + customer.getName());
                     System.out.println("Apellidos: " + customer.getSurname());
                     System.out.println("DNI: " + customer.getDni());
                     System.out.println("Direccion: " + customer.getDirection());
-                        //Datos del vehiculo
+                    //Datos del vehiculo
                     System.out.println("Vehiculo:");
                     System.out.println("Matricula: " + vehicle.getCarLicensePlate());
                     System.out.println("Marca: " + vehicle.getBrand());
