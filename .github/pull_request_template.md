@@ -12,4 +12,4 @@
 
 ## Screenshots or Video
 
-<!-- Captura de pantalla de la consola -->
+![](img.png)
