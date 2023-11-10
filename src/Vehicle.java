@@ -1,10 +1,11 @@
 public class Vehicle {
     private String carLicensePlate;
     private String brand;
+    private String model;
     private String colour;
     private String fuel;
     private String engine;
-    private String horsePower;
+    private int horsePower;
 
     public String getCarLicensePlate() {
         return carLicensePlate;
@@ -20,6 +21,14 @@ public class Vehicle {
 
     public void setBrand(String brand) {
         this.brand = brand;
+    }
+
+    public String getModel() {
+        return model;
+    }
+
+    public void setModel(String model) {
+        this.model = model;
     }
 
     public String getColour() {
@@ -46,11 +55,11 @@ public class Vehicle {
         this.engine = engine;
     }
 
-    public String getHorsePower() {
+    public int getHorsePower() {
         return horsePower;
     }
 
-    public void setHorsePower(String horsePower) {
+    public void setHorsePower(int horsePower) {
         this.horsePower = horsePower;
     }
 }

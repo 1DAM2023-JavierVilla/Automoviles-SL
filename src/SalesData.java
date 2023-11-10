@@ -1,18 +1,18 @@
 import java.util.ArrayList;
 
 public class SalesData {
-    private String salesCode;
+    private int salesCode;
     private String salesDate;
     private ArrayList<Customer> customers = new ArrayList<>();
     private ArrayList<Vehicle> vehicles = new ArrayList<>();
     private String methodOfPayment;
-    private String salePrice;
+    private double salePrice;
 
-    public String getSalesCode() {
+    public int getSalesCode() {
         return salesCode;
     }
 
-    public void setSalesCode(String salesCode) {
+    public void setSalesCode(int salesCode) {
         this.salesCode = salesCode;
     }
 
@@ -48,11 +48,21 @@ public class SalesData {
         this.methodOfPayment = methodOfPayment;
     }
 
-    public String getSalePrice() {
+    public double getSalePrice() {
         return salePrice;
     }
 
-    public void setSalePrice(String salePrice) {
+    public void setSalePrice(double salePrice) {
         this.salePrice = salePrice;
+    }
+
+    public void setVehicle(Vehicle foundVehicle) {
+    }
+
+    public void setCustomer(Customer customer) {
+    }
+
+    public Customer getCustomer(Customer customer) {
+        return customer;
     }
 }
