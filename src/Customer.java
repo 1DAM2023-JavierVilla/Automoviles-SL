@@ -4,6 +4,7 @@ public class Customer {
     private String surname;
     private String direction;
 
+
     public String getDni() {
         return dni;
     }
